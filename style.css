@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background: #00416A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #E4E5E6, #00416A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #E4E5E6, #00416A) ;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* HomePage */
+a {
+    text-decoration: none;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    text-align: center;
+    top: 0;
+    left: 40%;
+    margin-bottom: 50px;
+    color: aliceblue;
+}
+
+.peta_logo {
+    width: 100vw;
+}
+
+
+.info {
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+    color: rgb(4, 59, 61);
+}
+
+
+/* Page List Wisata */
+.container-li {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-li ul {
+    display: flex;
+    flex-direction: column;
+    list-style-image: url(./gambar/parasol.png);
+}
+
+.container-li li {
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.container-li a:hover {
+    transform: rotateX(10deg) rotateY(10deg);
+    color: rgb(0, 20, 136);
+    transition: 0.5s;
+}
+
+.container-li a:first-child:hover {
+    color: rgb(19, 29, 87);
+}
+
+.container-li a {
+    color: inherit;
+    font-size: 30px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.txt {
+    text-align: justify;
+}
+
+
